@@ -34,9 +34,7 @@ The code is written for and tested using the **MARS MIPS Simulator**, ensuring c
 1. Divide the input 32-bit word into four 8-bit chunks.
 2. For each byte:
    - **XOR** it with the result of the previous stage.
-   - **Substitute** the result using a polynomial function `F` (provided uniquely for each student).
-   - For the **first byte**, use the **initial vector (IV)** instead of a previous hash.
-     - IV = last two digits of your faculty ID (replace letters with 0 if needed).
+   - **Substitute** the result using a polynomial function `F` (provided uniquely for each student my function was: F(x) = 1044x^3 - 86x^2 - 74x +236).
 3. The result after the last substitution is the **final 8-bit hash**.
 
 ### 📤 Output:
@@ -45,10 +43,3 @@ The code is written for and tested using the **MARS MIPS Simulator**, ensuring c
   - Saved in registers `$v0` and `$s0`
 
 ---
-
-## 🛠️ Implementation Notes
-
-- Use **pure MIPS instructions only** (no pseudo-instructions)
-- Implement the hashing logic in a function named:  
-  ```asm
-  hash_fn:
