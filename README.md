@@ -20,10 +20,10 @@ The code is written for and tested using the **MARS MIPS Simulator**, ensuring c
 
 ## 🧩 Hashing Algorithm
 
-### 🔢 Input:
+### Input:
 - A 32-bit word (passed using the `pa` command-line option in MARS)
 
-### 📊 Diagram:
+### Diagram:
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/13396621-6ced-4eca-a8f3-5ca446d9b8a2" alt="Hash Function Diagram" width="500"/>
