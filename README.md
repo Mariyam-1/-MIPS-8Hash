@@ -26,8 +26,9 @@ The code is written for and tested using the **MARS MIPS Simulator**, ensuring c
 ### 📊 Diagram:
 
 <p align="center">
-  <img src="/hash-diagram.png" alt="Hash Function Diagram" width="500"/>
+  <img src="https://github.com/user-attachments/assets/13396621-6ced-4eca-a8f3-5ca446d9b8a2" alt="Hash Function Diagram" width="500"/>
 </p>
+
 
 ### 🔄 Steps:
 
