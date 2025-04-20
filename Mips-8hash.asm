@@ -95,3 +95,4 @@ add $t0 , $t6 ,$t5   # 1044x^3 - 86x^2 - 74x +236
 andi $t0 ,$t0 ,0xFF # taking the least 8 significant bits 
 add $v0, $t0, $zero 
 jr $ra
+
